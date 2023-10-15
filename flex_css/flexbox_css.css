@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 25px;
+  background: white;
+}
+
+.Logo {
+  width: 150px;
+}
+form {
+  position: relative;
+  width: 500px;
+}
+input,
+button {
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 50px;
+}
+input {
+  width: 500px;
+  height: 52px;
+  padding-left: 15px;
+  font-size: 25px;
+}
+button {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: gray;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.top {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+}
+.left {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.center {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+.aside {
+  width: 20%;
+}
+.sidebar ul {
+  list-style: none;
+  border-bottom: 2px solid black;
+  padding-left: 20px;
+}
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar li {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 20px;
+}
+
+.sidebar li:hover {
+  background: rgb(158, 158, 159);
+  color: white;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.basic {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav a {
+  background: rgb(196, 196, 197);
+  color: black;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.nav a:hover {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.content {
+  /*height: 100vh;*/
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: calc(33.33% - 10px);
+  margin: 5px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+figure {
+  padding: 10px;
+  min-width: 250px;
+}
+figcaption {
+  text-align: center;
+}
